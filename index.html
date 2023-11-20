@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- header logo and navigetion-bar -->
+    <div class="bg-header">
+      <div class="header container-width">
+        <!-- logo -->
+        <div class="logo">
+          <label for="theme" class="theme">
+            <span class="theme__toggle-wrap">
+              <input id="theme" class="theme__toggle toggle" type="checkbox" role="switch" name="theme" value="dark">
+            </span>
+          </label>
+        </div>
+        <!-- button-Menu -->
+        <div id="menu-btn" class="bi bi-list text-left-animation"></div>
+        <!-- navigetion bar -->
+        <nav class="navbar">
+          <a href="#home">home</a>
+          <a href="#about">about</a>
+          <a href="#khowledge">khowledge</a>
+          <a href="#service">services</a>
+          <a href="#contact">contact</a>
+        </nav>
+      </div>
+    </div>
+
+    <!-- end section  -->
+
+    <!-- home section  -->
+
+    <section class="home container-width" id="home">
+      <article class="grid-1x2">
+        <div class="text-hero text-left-animation">
+          <h3 class="underline chang-color">hello my name's</h3>
+          <h1 class="color-blue">long sovandara</h1>
+          <h4 class="chang-color">web design & ux/ui</h4>
+
+          <div class="contact-hero">
+            <span class="flex space">
+              <i class="bi bi-envelope-at-fill chang-color"></i>
+              <p class="chang-color" style="margin-top: 10px">
+                longsovadara02@gmail.com
+              </p>
+            </span>
+            <span class="flex">
+              <i class="bi bi-telephone-fill chang-color"></i>
+              <p class="chang-color" style="margin-top: 10px">098 420 473</p>
+            </span>
+          </div>
+        </div>
+        <div class="image-hero text-right-animation">
+          <img src="src/images/hero-image.jpg" alt="hero image" />
+        </div>
+      </article>
+    </section>
+
+    <!-- end section  -->
+
+    <!-- about section  -->
+
+    <section class="about container-width" id="about">
+      <article class="grid-1x2">
+        <div class="image-about">
+          <img src="src/images/about-image.jpg" alt="hero image" />
+        </div>
+        <div class="text-about">
+          <h3 class="color-green">about me</h3>
+          <div class="card-inner border-radius-card padding1-3">
+            <p class="color-blue">
+              I am a sophomore majoring in Computer Science at the Royal
+              University of Phnom Penh. I have a strong interest in Web & UX/UI
+              design.
+            </p>
+          </div>
+          <div class="btn-1 flex">
+            <button class="button1">
+              Download CV <i class="bi bi-arrow-right"></i>
+            </button>
+            <button class="button1">Show me <i class="bi bi-eye"></i></button>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- end section  -->
+
+    <!-- khowlede section  -->
+    <section class="khowledge container-width" id="khowledge">
+      <articel class="grid-1x2 gab">
+        <div class="">
+          <h2 class="space line chang-color">khowledge</h2>
+          <div class="card-inner padding1-2">
+            <div class="skill">
+              <h3 class="chang-color">
+                <i class="bi bi-code-slash chang-color"></i> web design
+              </h3>
+              <div class="flex space">
+                <img src="src/images/html.png" alt="icon-html" width="40px" />
+                <div class="flex">
+                  <div>
+                    <p class="chang-color">HTML</p>
+                    <div class="percentage border-colors html"></div>
+                  </div>
+                  <div class="number-percent chang-color">70%</div>
+                </div>
+              </div>
+              <div class="flex space">
+                <img src="src/images/css.png" alt="icon-html" width="40px" />
+                <div class="flex">
+                  <div>
+                    <p class="chang-color">CSS</p>
+                    <div class="percentage border-colors css"></div>
+                  </div>
+                  <div class="number-percent chang-color">70%</div>
+                </div>
+              </div>
+              <div class="flex space">
+                <img src="src/images/js.jpg" alt="icon-html" width="40px" />
+                <div class="flex">
+                  <div>
+                    <p class="chang-color">Javascript</p>
+                    <div class="percentage border-colors js"></div>
+                  </div>
+                  <div class="number-percent chang-color">50%</div>
+                </div>
+              </div>
+              <div class="flex space">
+                <img src="src/images/uiuxl.png" alt="icon-html" width="40px" />
+                <div class="flex">
+                  <div>
+                    <p class="chang-color">UX/UI</p>
+                    <div class="percentage border-colors ux-ui"></div>
+                  </div>
+                  <div class="number-percent chang-color">50%</div>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <h3 class="chang-color">
+                <i class="bi bi-code chang-color"></i> other program language
+              </h3>
+              <div class="flex space">
+                <img src="src/images/c.png" alt="icon-html" width="40px" />
+                <div class="flex">
+                  <div>
+                    <p class="chang-color">C</p>
+                    <div class="percentage border-colors c"></div>
+                  </div>
+                  <div class="number-percent chang-color">70%</div>
+                </div>
+              </div>
+              <div class="flex space">
+                <img src="src/images/c++.png" alt="icon-html" width="40px" />
+                <div class="flex">
+                  <div>
+                    <p class="chang-color">C++</p>
+                    <div class="percentage border-colors c-plus"></div>
+                  </div>
+                  <div class="number-percent chang-color">70%</div>
+                </div>
+              </div>
+              <div class="flex space">
+                <img src="src/images/php.png" alt="icon-html" width="40px" />
+                <div class="flex">
+                  <div>
+                    <p class="chang-color">PHP</p>
+                    <div class="percentage border-colors php"></div>
+                  </div>
+                  <div class="number-percent chang-color">50%</div>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <h3 class="chang-color">
+                <i class="bi bi-microsoft chang-color"></i> microsoft office
+              </h3>
+              <div class="flex space">
+                <img src="src/images/word.png" alt="icon-html" width="40px" />
+                <div class="flex">
+                  <div>
+                    <p class="chang-color">WORD</p>
+                    <div class="percentage border-colors word"></div>
+                  </div>
+                  <div class="number-percent chang-color">80%</div>
+                </div>
+              </div>
+              <div class="flex space">
+                <img src="src/images/ptt.png" alt="icon-html" width="40px" />
+                <div class="flex">
+                  <div>
+                    <p class="chang-color">POWER POINT</p>
+                    <div class="percentage border-colors ppt"></div>
+                  </div>
+                  <div class="number-percent chang-color">80%</div>
+                </div>
+              </div>
+              <div class="flex space">
+                <img src="src/images/excell.png" alt="icon-html" width="40px" />
+                <div class="flex">
+                  <div>
+                    <p class="chang-color">EXCELL</p>
+                    <div class="percentage border-colors excell"></div>
+                  </div>
+                  <div class="number-percent chang-color">50%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <h2 class="space line chang-color">education</h2>
+          <div class="card-inner padding1-2">
+            <div>
+              <p class="color-blue">2017. SOVANNPHUMI SCHOOL</p>
+              <p class="text-margin chang-color">
+                I finished studying English at Level 12. 2021.
+              </p>
+            </div>
+            <div class="text-right margin-top">
+              <p class="color-blue">CHHOUNG LEAP HIGH SCHOOL</p>
+              <p class="chang-color">I graduated grade 12. 2022.</p>
+            </div>
+            <div>
+              <p class="color-blue">ETEC CENTER</p>
+              <p class="text-margin chang-color">I finished basic C and C++ programming.</p>
+            </div>
+            <div class="text-right margin-top">
+              <p class="color-blue">2022. INSTINCT ISUSITE</p>
+              <p class="chang-color">I finished basic web development. 2022.</p>
+            </div>
+            <div class="margin-top">
+              <p class="color-blue">ROYAL UNIVERSITY OF PHNOM PENH</p>
+              <p class="text-margin chang-color">I finished studying Year 1.</p>
+            </div>
+            <div class="text-right">
+              <p class="color-blue">2023-Present. UDEMY (online)</p>
+              <p class="chang-color">I was studying UX/UI design.</p>
+            </div>
+          </div>
+        </div>
+      </articel>
+      <div class="line-2"></div>
+      <article class="card-inner grid-1x2">
+        <div class="padding1-2">
+          <h3 class="chang-color">work experience</h3>
+          <div class="contan-1 space">
+            <p class="color-blue">2019-2021. ROKA KPOS COMMUNE 2023.</p>
+            <p class="text-margin chang-color">
+              I was a volunteer in my commune.
+            </p>
+          </div>
+          <div class="contan-1">
+            <p class="color-blue">2023. Oone COMPANY</p>
+            <p class="text-margin chang-color">I am working as Tech-Advisor.</p>
+          </div>
+        </div>
+        <div class="padding1-2">
+          <h3 class="chang-color">Hobie</h3>
+          <div class="inlines">
+            <i style="margin-top: 2.5px" class="bi bi-book chang-color"></i>
+            <p class="chang-color">Reading book.</p>
+          </div>
+          <div class="inlines">
+            <i style="margin-top: 2.5px" class="bi bi-search chang-color"></i>
+            <p class="chang-color">Research.</p>
+          </div>
+          <div class="inlines">
+            <i style="margin-top: 2.5px" class="bi bi-vinyl chang-color"></i>
+            <p class="chang-color">Play football.</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- end section  -->
+
+    <!-- services section  -->
+
+    <section class="service container-width" id="service">
+      <h2 class="text-h2-center chang-color">service</h2>
+      <article class="grid-1x3 gab padding">
+        <div class="card-inner padding border-radius-card-2">
+          <h4 class="space chang-color h4-center">microsoft office</h4>
+          <p class="text-margin chang-color">. Good typing</p>
+          <p class="text-margin chang-color">. Slide project.</p>
+        </div>
+        <div class="card-inner padding border-radius-card-2">
+          <h4 class="space chang-color h4-center">fontend development</h4>
+          <p class="text-margin chang-color">. Bulid web aplication</p>
+          <p class="text-margin chang-color">. Responsive of website</p>
+          <p class="text-margin chang-color">. Website look Good.</p>
+        </div>
+        <div class="card-inner padding border-radius-card-2">
+          <h4 class="space chang-color h4-center">UX/UI</h4>
+          <p class="text-margin chang-color">. Build website and app</p>
+          <p class="text-margin chang-color">. Website look interest.</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- end section  -->
+
+    <!-- contact section  -->
+    <section class="contact container-width" id="contact">
+      <div class="card-inner border-radius-card-2 gab-2">
+        <h2 class="text-h2-center chang-color">Contact me</h2>
+        <div class="grid-1x2">
+          <div class="contact-container padding1-3">
+            <div class="space2">
+              <div class="inlines">
+                <i
+                  style="margin-top: 2.5px"
+                  class="bi bi-telephone-fill chang-color"
+                ></i>
+                <p class="chang-color">Tell</p>
+              </div>
+              <p class="text-margin chang-color">+855 98 420 473</p>
+            </div>
+            <div class="space2">
+              <div class="inlines">
+                <i
+                  style="margin-top: 2.5px"
+                  class="bi bi-envelope-fill chang-color"
+                ></i>
+                <p class="chang-color">Email</p>
+              </div>
+              <p class="text-margin chang-color">Isovandara02@gmail.com</p>
+            </div>
+            <div class="space2">
+              <div class="inlines">
+                <i
+                  style="margin-top: 2.5px"
+                  class="bi bi-geo-alt-fill chang-color"
+                ></i>
+                <p class="chang-color">Location</p>
+              </div>
+              <p class="text-margin chang-color">Phnom Penh, Cambodia</p>
+            </div>
+            <div class="space2">
+              <div class="inlines">
+                <i
+                  style="margin-top: 2.5px"
+                  class="bi bi-facebook chang-color"
+                ></i>
+                <p class="chang-color">Facebook</p>
+              </div>
+              <p class="text-margin chang-color">ឡុង​​ សុវណ្ណដារ៉ា៚</p>
+            </div>
+            <div class="space2">
+              <div class="inlines">
+                <i
+                  style="margin-top: 2.5px"
+                  class="bi bi-telegram chang-color"
+                ></i>
+                <p class="chang-color">Telegram</p>
+              </div>
+              <p class="text-margin chang-color">098 420 473</p>
+            </div>
+          </div>
+          <div class="form-card padding1-3">
+            <form class="form-input">
+              <input type="text" placeholder="full name" /><br />
+              <input type="email" placeholder="email" /><br />
+              <input type="password" placeholder="password" /><br />
+              <textarea
+                class="textarea"
+                name="text"
+                placeholder="message"
+              ></textarea
+              ><br />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-container">
+      <div class="footer-card">
+        <p class="chang-color">Copy-right © Your Website 2023</p>
+      </div>
+    </footer> 
+
+    <script src="script.js"></script>
+  </body>
+</html>
